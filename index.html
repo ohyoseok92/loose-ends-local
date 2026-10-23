@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loose Ends · Offline AI note digest</title>
+  <style>
+    :root { color-scheme: dark; font-family: ui-sans-serif, system-ui, sans-serif; }
+    body { margin: 0; background: #101820; color: #eef5f5; line-height: 1.6; }
+    main { max-width: 900px; margin: auto; padding: 48px 24px 80px; }
+    h1 { color: #95e2cc; font-size: clamp(2.4rem, 7vw, 4rem); line-height: 1.1; }
+    h2 { margin-top: 42px; color: #95e2cc; }
+    a { color: #95e2cc; }
+    video { width: 100%; border: 2px solid #3a6075; border-radius: 16px; }
+    pre { overflow-x: auto; background: #172533; padding: 22px; border-radius: 12px; }
+    .note { color: #a6bbc1; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Loose Ends</h1>
+    <p>A local AI that rereads Markdown notes and turns forgotten promises into a source-linked checklist. It merges duplicate reminders and leaves the original notes untouched.</p>
+    <h2>Recorded demo</h2>
+    <p class="note">This 16-second replay uses synthetic notes and the verified output of a real local Qwen2.5-Coder run.</p>
+    <video controls playsinline preload="metadata" aria-label="Loose Ends demo video">
+      <source src="demo.mp4" type="video/mp4">
+      <a href="demo.mp4">Download the demo video</a>.
+    </video>
+    <h2>Run it locally</h2>
+    <pre><code>ollama pull qwen2.5-coder:7b-instruct-q4_K_M
+python loose_ends.py examples/notes --output demo-report.md</code></pre>
+    <p>Read the <a href="https://github.com/ohyoseok92/loose-ends-local">source and setup instructions</a>, or inspect the <a href="https://github.com/ohyoseok92/loose-ends-local/blob/main/demo-report.md">actual sample report</a>.</p>
+  </main>
+</body>
+</html>
