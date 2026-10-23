@@ -26,11 +26,11 @@ python loose_ends.py examples/notes --output demo-report.md
 Unchanged notes; reused demo-report.md (no model call)
 ```
 
-[View the sample input and actual output](REPO_URL) and [watch the short demo](VIDEO_URL).
+[View the sample input](https://github.com/ohyoseok92/loose-ends-local/tree/main/examples/notes), [read the actual output](https://github.com/ohyoseok92/loose-ends-local/blob/main/demo-report.md), and [watch the 16-second demo](https://github.com/ohyoseok92/loose-ends-local/blob/main/demo.mp4).
 
 ## Code
 
-[Source, setup instructions, and MIT license](REPO_URL). The Python CLI uses only the standard library and a local Ollama endpoint. No account or cloud key is needed to run it.
+[Source, setup instructions, and MIT license](https://github.com/ohyoseok92/loose-ends-local). The Python CLI uses only the standard library and a local Ollama endpoint. No account or cloud key is needed to run it.
 
 ## How I Built It
 
