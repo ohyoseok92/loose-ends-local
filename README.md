@@ -2,7 +2,7 @@
 
 An offline, review-first assistant for small promises buried in Markdown notes. It reads a folder of `.md` and `.txt` files, asks a local open-weight model to extract and merge commitments, and writes a short checklist with source lines. Run it whenever you want; unchanged notes are served from cache with **zero model calls**.
 
-This is a new project built for the [Hacktoberfest 2026 Week 3: Slow and Steady challenge](https://dev.to/challenges/hacktoberfest-week3-2026-10-19). It rewards laziness by doing the recurring, low-energy chore of rereading notes. The AI is central: it decides whether a sentence is a commitment, ignores completed work, merges repeat reminders, and suggests a first step.
+This is a new project built for the [Hacktoberfest 2026 Week 3: Slow and Steady challenge](https://dev.to/challenges/hacktoberfest-week3-2026-10-19). It rewards laziness by doing the recurring, low-energy chore of rereading notes. The AI is central: it decides whether a sentence is a commitment, ignores completed work, merges repeat reminders, and suggests a first step. [Watch the deployed demo page](https://ohyoseok92.github.io/loose-ends-local/).
 
 ## Demo
 

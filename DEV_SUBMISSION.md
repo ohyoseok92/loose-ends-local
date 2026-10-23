@@ -26,7 +26,7 @@ python loose_ends.py examples/notes --output demo-report.md
 Unchanged notes; reused demo-report.md (no model call)
 ```
 
-[View the sample input](https://github.com/ohyoseok92/loose-ends-local/tree/main/examples/notes), [read the actual output](https://github.com/ohyoseok92/loose-ends-local/blob/main/demo-report.md), and [watch the 16-second demo](https://github.com/ohyoseok92/loose-ends-local/blob/main/demo.mp4).
+[Watch the 16-second demo](https://ohyoseok92.github.io/loose-ends-local/), [view the sample input](https://github.com/ohyoseok92/loose-ends-local/tree/main/examples/notes), and [read the actual output](https://github.com/ohyoseok92/loose-ends-local/blob/main/demo-report.md).
 
 ## Code
 
